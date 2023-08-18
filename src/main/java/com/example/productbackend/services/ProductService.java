@@ -28,5 +28,8 @@ public class ProductService {
                                 () -> new EntityNotFoundException("Product not found")
                                 );
     }
+
+    public void deleteProductByid(long id) {
+    }
     
 }
